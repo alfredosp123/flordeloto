@@ -1825,12 +1825,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #00e676;
-  border-color: #00e676; }
+  background-color: #ddad43;
+  border-color: #ddad43; }
   .btn-primary:hover {
     color: #ffffff;
-    background-color: #00c062;
-    border-color: #00b35c; }
+    background-color: #000000;
+    border-color: #ddad43; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
@@ -4477,6 +4477,9 @@ button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #0a0c0d !important; }
 
+.bg-dorado {
+  background-color: #ddad43;
+}  
 .bg-white {
   background-color: #ffffff !important; }
 
@@ -7282,13 +7285,13 @@ footer hr {
   font-size: 18px;
   line-height: 45px; }
   .social a:hover {
-    background: #00e676;
+    background: #ddad43;
     transition: all .4s ease-in-out; }
 
 .social.social-dark a {
   background: rgba(0, 0, 0, 0.6); }
   .social.social-dark a:hover {
-    background: #00e676; }
+    background: #ddad43; }
 
 .social.social-sm a {
   width: 35px;
@@ -7327,9 +7330,9 @@ footer hr {
   line-height: 40px;
   right: -100px;
   color: #ffffff;
-  background-color: rgba(0, 230, 118, 0.5); }
+  background-color: #ddad43; }
   .scroll-top:hover {
-    background-color: #00e676;
+    background-color: #000000;
     transition: all .4s ease-in-out; }
   .scroll-top.active {
     right: 20px; }
