@@ -66,6 +66,10 @@ body {
   color: #343a40;
   text-align: left;
   background-color: #ffffff; }
+  .imagen-curso {
+    width: 8rem;
+    height: 8rem;
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -1832,19 +1836,19 @@ fieldset:disabled a.btn {
     background-color: #000000;
     border-color: #ddad43; }
   .btn-primary:focus, .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.5); }
+    box-shadow: 0 0 0 0.2rem #ddad43; }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #ffffff;
-    background-color: #00e676;
-    border-color: #00e676; }
+    background-color: #ddad43;
+    border-color: #ddad43; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #ffffff;
-    background-color: #00b35c;
-    border-color: #00a655; }
+    background-color: #ddad43;
+    border-color: #ddad43; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.5); }
+      box-shadow: 0 0 0 0.2rem #ddad43; }
 
 .btn-secondary {
   color: #212529;
@@ -7247,7 +7251,7 @@ p a, .border-link {
   background-color: inherit;
   transition: all .25s ease-out; }
   .card-services .card:hover {
-    background-color: rgba(0, 230, 118, 0.1);
+    background-color: #ddad43;
     transition: all .25s ease-out; }
 
 /*reviews*/
