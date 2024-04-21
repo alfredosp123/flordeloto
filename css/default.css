@@ -1415,16 +1415,16 @@ pre {
     border: 0; }
 
 .form-control {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
-  background-color: #ffffff;
   background-clip: padding-box;
-  border: 2px solid #f8f9fa;
-  border-radius: 0.25rem;
+  border: 2px solid #000000;
+  border-radius: 1.0rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .form-control::-ms-expand {
     background-color: transparent;
@@ -2898,6 +2898,12 @@ tbody.collapse.show {
         align-items: center;
     -ms-flex-pack: justify;
         justify-content: space-between; }
+
+.navbar-contact{
+  display: flex;
+  align-items: center;
+  padding-top: 1.25rem;
+}
 
 .navbar-brand {
   display: inline-block;
@@ -7476,5 +7482,44 @@ footer hr {
     display: none; } }
 
 .h2-center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*contacto*/
+
+.formulario{
+  display: block;
+  }
+.form-label{
+margin-top: 5px;
+padding: 5px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-contact{
+  width: 100%;
+  background-image: linear-gradient(rgba(7, 12, 15, 0.7), rgba(7, 12, 15, 0.7)),
+  url("../img/WhatsApp\ Image\ 2024-04-18\ at\ 13.20.07.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+.h1-contacto {
+  color: white;
+}
+
+.p-contacto {
+  color: white;
+}
+
+.color-label{
+  background-color: rgba(8, 12, 10, 0.19);
 }
