@@ -484,6 +484,7 @@ pre {
     .container {
       max-width: 1140px; } }
 
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -7512,6 +7513,8 @@ padding: 5px;
   background-attachment: fixed;
   }
 
+  
+
 .h1-contacto {
   color: white;
 }
@@ -7522,4 +7525,23 @@ padding: 5px;
 
 .color-label{
   background-color: rgba(8, 12, 10, 0.19);
+}
+
+/*video*/
+
+.body-video{
+  width: 100%;
+  background-image: linear-gradient(rgba(26, 69, 95, 0.63), rgba(7, 12, 15, 0.7))
+  }
+
+.video {
+  border: solid 5px black;
+  border-radius: 15px;
+}
+
+.color-random {
+  background-color: rgba(8, 12, 28, 0.6);
+  border: solid;
+  border-radius: 15px;
+
 }
